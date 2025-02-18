@@ -10,7 +10,9 @@
                 <Menue />
             </div>
 
-            <ColorModeSelector />
+            <ClientOnly>    
+                <ColorModeSelector />
+            </ClientOnly>
         </header>
         <main class="p-2 mt-10">
 
@@ -20,11 +22,6 @@
 </template>
 
 <script setup>
-const colorMode = useColorMode()
-colorMode.preference = 'light';
-
-console.log( 'clour_mode' , colorMode.preference)
-
 
 useHead({
     titleTemplate: '%s - Aryan Surin',
