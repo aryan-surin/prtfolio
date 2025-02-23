@@ -8,6 +8,6 @@
 definePageMeta({
     title: 'Blog Page',
     description: 'This is a blog page',
-    layout: 'another'
+    // layout: 'another'
 })
 </script>
