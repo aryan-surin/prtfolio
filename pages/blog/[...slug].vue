@@ -1,5 +1,5 @@
 <template>
-    <article>
+    <article class="prose dark:prose-invert">
         <ContentDoc v-if="route.params.slug" />
     </article>
 </template>
