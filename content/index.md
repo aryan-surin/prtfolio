@@ -1,3 +1,8 @@
-# My First Page
+---
+title: Welcome
+description: Welcome to my portfolio and blog
+---
 
-Here is some content.
+# Welcome
+
+This is the main content page of my site. You can explore the various sections using the navigation.

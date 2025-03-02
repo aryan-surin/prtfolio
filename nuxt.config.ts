@@ -14,6 +14,8 @@ export default defineNuxtConfig({
         dark: 'min-dark'
       }
     },
+    documentDriven: true,
+    debug: true
   },
   colorMode: {
     classSuffix: ''
