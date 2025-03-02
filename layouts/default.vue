@@ -7,7 +7,7 @@
                         Aryan surin
                     </NuxtLink>
                 </div>
-                <Menue />
+                <Menu />
             </div>
 
             <ClientOnly>    
